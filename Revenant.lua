@@ -465,6 +465,7 @@ labelFixLine.Parent = label
 local labelTextLabel = Instance.new("TextLabel")
 labelTextLabel.Name = "LabelTextLabel"
 labelTextLabel.Text = Info.Text
+labelTextLabel.RichText = true
 labelTextLabel.Font = Enum.Font.GothamBold
 labelTextLabel.TextColor3 = Info.Color
 labelTextLabel.TextSize = 13
